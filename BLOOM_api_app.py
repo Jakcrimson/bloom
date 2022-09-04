@@ -1,8 +1,10 @@
 from huggingface_hub import InferenceApi
+from IPython.display import HTML as html_print
+import streamlit as st
 
 inference = InferenceApi("bigscience/bloom",token="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")
 
-from IPython.display import HTML as html_print
+
 
 def cstr(s, color='black'):
     #return "<text style=color:{}>{}</text>".format(color, s)
@@ -46,8 +48,6 @@ def infer(prompt,
     
     response = inference(prompt, params=params)
     return html_print(cstr(prompt, color='#f1f1c7') + cstr(response[0]['generated_text'], color='#a1d8eb')), response[0]['generated_text']
-
-import streamlit as st
 
 st.title("Chat with BLOOM ^^")
 user_input = st.text_area("Enter a question, a sentence, a complex input...")
