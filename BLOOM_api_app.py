@@ -1,6 +1,4 @@
 from huggingface_hub import notebook_login
-from huggingface_hub import HfFolder
-
 
 #enter your API key, you can make one for free on HF
 notebook_login()
