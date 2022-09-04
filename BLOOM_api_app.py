@@ -1,8 +1,3 @@
-from huggingface_hub import notebook_login
-
-#enter your API key, you can make one for free on HF
-notebook_login()
-
 from huggingface_hub import InferenceApi
 
 inference = InferenceApi("bigscience/bloom",token="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")
