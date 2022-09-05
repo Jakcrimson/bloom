@@ -164,3 +164,6 @@ if user_input:
     st.write(color_resp)
 else:
     pass
+
+st.warning("""Do NOT talk to BLOOM as an entity, it's not a chatbot but a webpage/blog/article completion model.
+For the best results: MIMIC a few sentences of a webpage similar to the content you want to generate. Start a paragraph as if YOU were writing a blog, webpage, math post, coding article and BLOOM will generate a coherent follow-up. Longer prompts usually give more interesting results.""")
