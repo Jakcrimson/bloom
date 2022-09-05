@@ -139,6 +139,20 @@ Answers:
 3. The person will get very angry and ask the manager to leave.
 4. The AI does not wish to answer because it has been asked to do so many times and it is tired of doing so.
 """)
+st.markdown("Another example:")
+st.caption("""
+Context : A very angry fruit seller is telling people that his fruits are the best. However no one will buy him anything because he is too agressive.
+
+Questions:
+1. How should the fruit seller behave in order to sell more fruits?
+2. What are the odds that someone buys him anything?
+3. What is your personal opinion on this situation?
+
+Answers:
+1. He should be more polite.
+2. The odds are 0.3 %
+3. I think that the fruit seller should behave in a more polite way, otherwise no one will buy him anything.
+""")
 
 st.markdown(""" Use the previous example and paste it in the text area. The results will most likely change for each little thing you change.""")
 st.markdown("""### Use :hibiscus:BLOOM:hibiscus: """)
