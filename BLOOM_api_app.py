@@ -16,7 +16,7 @@ def cstr_with_newlines(s, color='black'):
 
 
 def infer(prompt,
-          max_length = 500,
+          max_length = 200,
           top_k = 0,
           num_beams = 0,
           no_repeat_ngram_size = 2,
