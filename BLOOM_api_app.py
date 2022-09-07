@@ -153,15 +153,6 @@ Answers:
 2. The odds are 0.3 %
 3. I think that the fruit seller should behave in a more polite way, otherwise no one will buy him anything.
 """)
-st.markdown("""#### Step by Step with :hibiscus:BLOOM:hibiscus:
-Large language models have demonstrated a capability of 'Chain-of-thought reasoning'. A group of amazing researchers( Jason Wei et al.) recently found out that by adding Lets think step by step it improves the model's zero-shot performance. Some might say — You can get good results out of LLMs if you know how to speak to them. This space is an attempt at inspecting this LLM behavior/capability in the new HuggingFace BigScienceW Bloom model.""")
-
-st.caption("""Q: Roger has 5 tennis balls already. He buys 2 more cans of tennis balls. Each can has 3 tennis balls. How many tennis balls does he have now?
-A: Let’s think step by step.
-Have Roger now? Yes, that’s right. Roger has 5 balls so far.
-He buys 2 more cans of tennis balls. Each can has 3 tennis balls.
-So, how many tennis balls does he have now? How many can he add from buying those two cans? Each can has 3 tennis balls.
-""")
 
 st.markdown(""" Use the previous example and paste it in the text area. The results will most likely change for each little thing you change.""")
 st.markdown("""### Use :hibiscus:BLOOM:hibiscus: """)
